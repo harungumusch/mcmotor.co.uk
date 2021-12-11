@@ -1,9 +1,8 @@
-.navbar-brand{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-
-#logo{
-    width: 12rem;
+#logo {
+  width: 12rem;
 }
