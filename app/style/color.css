@@ -1,6 +1,36 @@
-.logo-auto,.logo-c{
-    color: hsla(0, 100%, 50%, 1);
+.logo-auto,
+.logo-c {
+  color: hsla(0, 100%, 50%, 1);
 }
+/*
 main{
-    background-color: rgb(228, 222, 222);
+   
+}
+*/
+.mc-bg-dark {
+  background-image: linear-gradient(
+    to right,
+    #0a0909 0%,
+    #d7d2cc 51%,
+    #0a0909  100%
+  );
+}
+.mc-bg-dark {
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+
+}
+
+.mc-bg-dark:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.strip{
+    width: 100%
+
 }
